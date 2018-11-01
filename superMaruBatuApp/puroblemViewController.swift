@@ -86,6 +86,7 @@ class puroblemViewController: UIViewController {
    
     @IBAction func remove(_ sender: Any) {
          UserDefaults.standard.removeObject(forKey: "hoge")
+        showAlert(message: "問題文を削除しました")
     }
     
     
