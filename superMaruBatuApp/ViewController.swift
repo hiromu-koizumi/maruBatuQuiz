@@ -113,7 +113,7 @@ class ViewController: UIViewController {
 //
 //            label.text = "なにもありませんよ"
 //        }
-       UserDefaults.standard.removeObject(forKey: "hoge")
+      // UserDefaults.standard.removeObject(forKey: "hoge")
         
         
     }
